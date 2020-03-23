@@ -1,0 +1,294 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.nav{
+	width: 100%;
+	height: 120px;
+	background: url(../img/yinyue_bg.jpg)no-repeat center;
+}
+.nav-img{
+	float: left;
+}
+.nav-text{
+	float: right;
+}
+.banner-nav{
+	width: 1100px;
+	height: 120px;
+	margin: 0 auto;
+	position: relative;
+}
+.nav-text{
+margin-top: 50px;
+}
+ul,li{
+	list-style: none;
+}
+.nav-text>li{
+	float: left;
+	color: white;
+	margin-left: 60px;
+}
+.nav-text{
+	position: relative;
+}
+.xiala{
+	position: absolute;
+	left: 60px;
+	top: -24px;
+	cursor: pointer;
+	position: relative;
+}
+.erji{
+	width: 160px;
+	position: absolute;
+	left: -80px;
+	/* top: 50px; */
+	line-height: 40px;
+	background:url(../img/yinyue_bg.jpg) no-repeat center;
+	color: white;
+	display: none;
+	transition: 0.5s;
+	z-index: 100;
+}
+.erji>li{
+	padding-left: 20px;
+	transition: 0.5s;
+}
+.erji>li:hover{
+	background-color: royalblue;
+	transition: 0.5s;
+	padding-left: 30px;
+}
+a{
+	text-decoration: none;
+}
+.xiala:hover .erji{
+	display: block;
+}
+.banner{
+	position: relative;
+}
+.banner-img{
+	position: absolute;
+	left: 0;
+	right: 0;
+	position: relative;
+}
+.banner-img li{
+	position: absolute;
+	left: 0;
+	right: 0;
+	display: none;
+}
+.banner-img li img:first-child{
+	width: 100%;
+	height: 600px;
+}
+.banner-img li.active{
+	display: block;
+}
+.position{
+	position: absolute;
+	left:600px;
+	top: 150px;
+	transition: 0.5s;
+}
+/* body:hover .position{
+	left: 600px;
+	transition: 0.5s;
+} */
+.position-one{
+	position: absolute;
+	right: 340px;
+	top: 250px;
+}
+.position-two{
+	position: absolute;
+	left: 600px;
+	top: 320px;
+}
+.banner-img>li{
+	position: relative;
+}
+.position-three{
+	position: absolute;
+	left: 200px;
+	top: 200px;
+}
+.position-four{
+	position: absolute;
+	left: 410px;
+	top: 100px;
+}
+.position-five{
+	position: absolute;
+	left: 410px;
+	top: 220px;
+}
+.dots{
+	width: 60px;
+	height: 20px;
+	position: absolute;
+	left: 50%;
+	bottom: 70px;
+	margin-left: -60px;
+	text-align: center;
+	line-height: 20px;
+	border-radius: 18px;
+	background-color: darkgray;
+}
+.dots>li{
+	height: 10px;
+	width: 10px;
+	display: inline-block;
+	background-color: white;
+	border-radius: 50%;
+}
+.dots>li.checked{
+	background-color: royalblue;
+}
+#left{
+	font-size: 26px;
+	color: gray;
+	position: absolute;
+	left: 660px;
+	bottom:72px;
+	transition: 1s;
+}
+#right{
+	font-size: 20px;
+	color: gray;
+	position: absolute;
+	left: 774px;
+	bottom:76px;
+	transition: 1s;
+}
+#left:hover{
+	color: royalblue;
+	transition: 1s;
+}
+#right:hover{
+	color: royalblue;
+	transition: 1s;
+}
+.aside{
+	width: 100%;
+	height: 1000px;
+	background-color:#F1F2F6;
+	margin-top: -10px;
+}
+.img-one{
+	margin-left: 730px;
+	margin-top: 80px;
+}
+#header{
+	text-align: center;
+}
+.point{
+	margin-left: 740px;
+	margin-top: 12px;
+}
+.header{
+	color: #311759;
+	font-size: 60px;
+	margin-top: 60px;
+}
+.english{
+	font-size: 18px;
+	color: #311759;
+}
+#article{
+	width: 1100px;
+	height: 540px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.jiejian>img,.chanpin>img,.zhengwen{
+	float: left;
+}
+.zhengwen{
+	width: 610px;
+	height: 440px;
+	margin-left: 30px;
+}
+ul,li{
+	list-style: none;
+}
+.chanpin{
+	margin-left: 70px;
+}
+.yinyue{
+	color: white;
+	height: 920px;
+	background:url(../img/mokuai02_bg.jpg) no-repeat center;
+}
+.round{
+	height: 980px;
+	background-color: #F1F2F6;
+	padding-top: 10px;
+}
+.yewu{
+	width: 1100px;
+	height: 170px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.simple{
+	height: 120px;
+	/* padding-bottom: 60px; */
+	border-bottom: 2px dashed gray;
+	position: relative
+}
+.ditail{
+	width: 790px;
+	height: 190px;
+	margin: 0 auto;
+}
+.ditu{
+	margin-left: -200px;
+}
+.footer{
+	height: 400px;
+	width: 1500px;
+	background: url(../img/mokuai02_bg.jpg);
+	margin-left: -200px;
+}
+.music{
+	width: 1100px;
+	height: 330px;
+	margin: 0 auto;
+}
+.yinfu{
+	width: 1100px;
+	height: 60px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 100px;
+}
+.yinfu>li{
+	color: white;
+	width: 60px;
+	height: 60px;
+	border: 1px solid gray;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	line-height: 60px;
+	margin-left: 20px;
+}
+.yinfu li:hover{
+	background-color: royalblue;
+}
+.xiantiao{
+	width: 1100px;
+	height: 70px;
+	margin: 0 auto;
+	border-top: dashed 2px gray;
+	text-align: center;
+	line-height: 70px;
+	color: white;
+	padding-bottom: 40px;
+}
+

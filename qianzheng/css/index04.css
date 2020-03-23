@@ -1,0 +1,52 @@
+@media screen and (min-width:1200px) {
+	.nofixed{
+		position: static;
+	}
+}
+#fuzhen .container{
+	text-align: left;
+}
+#fuzhen{
+	padding: 10px;
+	background-color: #F5F5F5;
+	color: #6B7ABD;
+}
+#mom{
+	text-align: left;
+	padding: 20px;
+}
+.pull-right{
+	margin-left: 20px;
+	margin-top: -10px;
+}
+.dad{
+	width: 120px;
+	height: 40px;
+	border: 1px solid orange;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 10px;
+	color: orange;
+	margin-left: 30px;
+}
+.dad:hover{
+	color: white;
+	background-color: orange;
+}
+#did{
+	background-color: #F8F8F8;
+	position: relative;
+}
+#sun{
+	position: fixed;
+	top: 180px;
+	right: -500px;
+	border-left: gray solid 1px;
+	padding-left: 20px;
+}
+#sun .container{
+	text-align: left;
+}
+.pop p{
+	margin-left: 14px;
+}
